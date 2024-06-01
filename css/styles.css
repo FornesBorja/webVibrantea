@@ -8,6 +8,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: #c9ada7;
 }
 
 .btn-send {
@@ -18,18 +19,21 @@ body {
 #content-contact-right {
   background-color: #c9ada7;
 }
-
-.container-general {
+#content-description{
+  margin-top: 2em;
   background-color: #c9ada7;
+
+}
+.container-general {
   height: 100vh;
   width: 100vw;
 }
 
 #description {
-  margin-top: 2em;
   background-color: #f2e9e4;
   border: 0.2em solid #4A4E69;
   border-radius: 1em;
+  margin-bottom: 2em;
 }
 
 #footer {
