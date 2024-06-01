@@ -11,6 +11,7 @@
 Welcome to Vibrantea, your one-stop shop for a delightful dining experience! We're a vibrant fictional cafeteria  serving up a world of culinary creations.
 
 Craving something scrumptious? Explore our menu.
+<br>
 ![](https://github.com/FornesBorja/webVibrantea/blob/master/imgs/cafeteria.gif)
 
 
@@ -20,9 +21,8 @@ Craving something scrumptious? Explore our menu.
 
 
 ## Features 👾
-- **Multi-page Website:** The website consists of a series of html files linked together.
-- **Responsive Design:** The website adjusts to different screen sizes.
-- **Collapsable Navbar** The navigation bar collapses into a button that opens in an offcanvas given a small enough screen size.
+- **Multi-page Website:** The website consists of a series of html files linked together: the <em>main page</em>, where where you will be welcomed. The <em>contact</em> page with our data and a form if you want us to contact you and the <em>menu</em> where you can see the different beverages and food we offer.
+- **Responsive Design:** The website adjusts to different screen sizes. I considered it better to hide the buttons in <em>menu</em> because they are not necessary in larger screens.
 
 ## Live Deployment 🌐
 [![FornesBorja](https://img.shields.io/static/v1?label=FornesBorja&message=webVibranTEA&color=blue&logo=github)](https://fornesborja.github.io/webVibrantea)

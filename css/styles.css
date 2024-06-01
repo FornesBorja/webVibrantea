@@ -7,42 +7,46 @@
 
 .item {
   background-color: #e6dddb;
-  color: #22223B;
+  color: #22223b;
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
   font-size: 1.2em;
   border-radius: 4px;
 }
-#beverages-menu, #food-menu{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10em, 2fr));
-    gap: 0.5em;
-    padding: 0.5em;
-    border-radius: 6em ;
+#beverages-menu,
+#food-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 2fr));
+  gap: 0.5em;
+  padding: 0.5em;
+  border-radius: 6em;
 }
 body {
   height: 100vh;
   width: 100vw;
 }
-
 .bg-dogwood {
   background-color: #c9ada7;
 }
 .bg-isabelline {
   background-color: #f2e9e4;
 }
-.bg-ultra-violet{
-  background-color: #4A4E69;
+.bg-ultra-violet {
+  background-color: #4a4e69;
 }
-.btn-rose-quartz{
-  background-color: #9A8C98;
+.btn-rose-quartz {
+  background-color: #9a8c98;
 }
-.btn-rose-quartz:hover{
+.btn-rose-quartz:hover {
   background-color: #746471;
 }
 .btn-send {
-  background-color: #22223B;
+  background-color: #22223b;
+  color: #f2e9e4;
+}
+.btn-send:hover {
+  background-color: #3e3e6b;
   color: #f2e9e4;
 }
 
@@ -56,7 +60,7 @@ body {
 }
 
 #description {
-  border: 0.2em solid #4A4E69;
+  border: 0.2em solid #4a4e69;
   border-radius: 1em;
   margin-bottom: 2em;
 }
@@ -79,13 +83,18 @@ body {
   width: 2.5em;
   height: 2.5em;
 }
-.menu{
+.menu {
   width: auto;
   height: 10em;
   object-fit: contain;
 }
 #us {
-  font-size: 2em;
+  font-size: 3em;
   color: #22223b;
   text-shadow: -0.1em -0.3em 1em #9a8c98;
+}
+#text-contact{
+  background-color: #9a8c98;
+  padding:1em;
+  border-radius: 2em;
 }
