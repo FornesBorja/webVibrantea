@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div id="container">
+  <div class="container-general d-flex flex-column ">
     <nav class="navbar navbar-expand-lg isabelline">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="../imgs/logo.png" id="main-logo"></a>
@@ -30,10 +30,10 @@
         </div>
       </div>
     </nav>
-    <div id="content-contact" class="container-fluid d-flex flex-column">
+    <div id="content-contact" class="container-fluid h-100 ">
       <div class="row h-100">
         <div id="content-contact-left" class="col-md-12 col-lg-8 ">
-          <form class="row g-3">
+          <form class="row g-3 p-5">
             <div class="col-md-6">
               <label for="inputName4" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="imputName4">
@@ -42,20 +42,22 @@
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail4">
             </div>
-            
+
             <div class="col-12">
               <label for="inputTelephone" class="form-label">Teléfono</label>
               <input type="number" class="form-control" id="inputTelephone" placeholder="+34">
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-send">Enviar</button>
             </div>
           </form>
         </div>
-        <div id="content-contact-right" class="col-lg-4">
-          <div id="text-contact">Mándanos tus datos si quieres que te resolvamos alguna duda, o contáctanos :
-            <div id="whatsapp">+34 000000000</div>
-            <div id="email">vibrantea@contact.com</div>
+        <div id="content-contact-right" class="col-lg-4 ">
+          <div class="text p-5">
+            <div id="text-contact">Mándanos tus datos si quieres que te resolvamos alguna duda, o contáctanos :
+              <div id="whatsapp">+34 000000000</div>
+              <div id="email">vibrantea@contact.com</div>
+            </div>
           </div>
         </div>
       </div>
