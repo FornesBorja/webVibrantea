@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
-  padding: 0;
+  padding: 0 ; 
   margin: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
 }
 #container {
   background-color: #c9ada7;
@@ -10,9 +14,11 @@
 }
 #description{
   margin-top: 2em;
-  padding: 1em;
   background-color: #f2e9e4;
   border: 0.2em solid #4A4E69;
+  border-radius: 1em;
+}
+#footer{
   border-radius: 1em;
 }
 #image {
@@ -37,7 +43,6 @@
   height: 2.5em;
 }
 #us {
-  padding: 2em;
   font-size: 2em;
   color: #22223b;
   text-shadow: -0.1em -0.3em 1em #9a8c98;
