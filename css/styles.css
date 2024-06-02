@@ -6,23 +6,15 @@
   margin: 0;
 }
 
-.item {
-  background-color: #e6dddb;
-  color: #22223b;
-  border: 1px solid #ccc;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.2em;
-  border-radius: 4px;
-}
-
 #beverages-menu,
 #food-menu {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10em, 2fr));
-  gap: 0.5em;
+  gap: 0.9em;
   padding: 0.5em;
   border-radius: 6em;
+  padding: 4em;
+
 }
 
 body {
@@ -96,6 +88,16 @@ body {
   border: 0.2em solid #4a4e6961;
   padding: 1em;
 }
+.item {
+  background-color: #e6dddb;
+  color: #22223b;
+  border: 1em solid #746471;
+  padding: 1.4em;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 1em;
+}
+
 .lobster-two-regular {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
@@ -132,7 +134,11 @@ body {
   background-color: #9a8c9875;
   padding: 1em;
 }
-
+.text{
+  background-color:  #22223b;
+  margin-top: 0.4em;
+  color: #c9ada7;
+}
 @media (min-width: 768px) {
   .navbar-nav {
     order: -1;
