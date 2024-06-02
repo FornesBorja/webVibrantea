@@ -10,7 +10,7 @@
 ## Description 📖
 Welcome to Vibrantea, your one-stop shop for a delightful dining experience! We're a vibrant fictional cafeteria  serving up a world of culinary creations.
 
-Craving something scrumptious? Explore our menu.
+Craving something? Explore our menu.
 <br>
 ![](https://github.com/FornesBorja/webVibrantea/blob/master/imgs/cafeteria.gif)
 
