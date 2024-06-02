@@ -139,6 +139,10 @@ body {
   margin-top: 0.4em;
   font-weight: bold;
   font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 @media (min-width: 768px) {
   .navbar-nav {
