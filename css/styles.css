@@ -127,6 +127,7 @@ body {
 #us {
   font-size: 3em;
   color: #22223b;
+  padding: 1em 1em 0.6em 1em;
   text-shadow: -0.1em -0.3em 1em #9a8c98;
 }
 
@@ -135,9 +136,9 @@ body {
   padding: 1em;
 }
 .text{
-  background-color:  #22223b;
   margin-top: 0.4em;
-  color: #c9ada7;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 @media (min-width: 768px) {
   .navbar-nav {
